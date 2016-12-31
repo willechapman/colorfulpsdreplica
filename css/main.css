@@ -1,0 +1,186 @@
+body {
+	margin:0;
+}
+
+li, a {
+	text-decoration: none;
+}
+header {
+	background-color: #A3CFD8;
+	padding-left: 250px;
+	padding-right: 250px;
+	height: 400px;	
+}
+
+nav {
+	padding-bottom: 125px;
+}
+
+
+/*logo*/
+#logo {
+	float: left;
+	display: inline;
+
+
+}
+#logo img{
+	display: inline-block;
+	height: 75px;
+	width: 90px;
+}
+
+#logo h1 {
+	display: inline;
+	position: relative;
+	bottom: 30px;
+	right: 25px;
+} 
+/*Nav Links*/
+nav ul {
+	float: right;
+	margin-top: 35px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+}
+nav ul li {
+	display: inline;
+	margin-left: 45px;
+
+
+}
+
+nav a {
+	color: black;
+}
+
+.active a{
+	color: #A3CFD8;
+	background-color: black;
+	border-radius: 5px;
+	padding: 5px;
+	
+}
+
+#intro p {
+	float: left;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: #ffffff;
+	width: 365px;
+	padding: 0;
+	
+}
+
+#intro img {
+	float: right;
+	width: 250px;
+	height: 200px;
+	margin-right: 75px;
+}
+
+/*Features Three Thumbnails Section*/
+
+.thumbnail {
+	background-color: #ffffff;
+	padding-left: 250px;
+	padding-right: 250px;
+	height: 380px;
+}
+
+.box {
+	position: relative;
+	float: left;
+	padding-top: 50px;
+	padding-right: 80px;
+	left: 30px; 
+}
+
+.box img {
+	width: 150px;
+	height: 150px;
+	margin-left: 25px;
+}
+
+.gBox h3 {
+	width: 200px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.gBox p {
+	width: 200px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+/*Recent Worrk Section*/
+
+#skills {
+	background-color: #97D0A3;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.head {
+	color: #ffffff;
+	text-align: center; 
+}
+
+.head p {
+	font-family: sans-serif;
+}
+
+
+
+#skills ul {
+	text-align: center;
+	margin-top: 35px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	 
+}
+
+#kills ul a {
+	color: white;
+}
+
+#skills li {
+	text-decoration: none;
+	display: inline;
+	margin-right: 30px
+}
+
+.active1 a{
+	color: #97D0A3;
+	background-color: black;
+	border-radius: 5px;
+	padding: 5px;
+	
+}
+
+.thumb {
+	display: block;
+	margin-left: auto;
+	margin-right: 95%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+
+
+}
+
+.thumb img{
+	padding-right: 55px;
+	padding-bottom: 55px;
+	width: 225px;
+	height: 200px;
+	float: left;
+	
+}
+button {
+	text-align: center;
+	background-color: white;
+}
+
