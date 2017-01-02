@@ -1,5 +1,6 @@
 body {
 	margin:0;
+	padding:0;
 }
 
 li, a {
@@ -54,6 +55,8 @@ nav ul li {
 nav a {
 	color: black;
 }
+
+
 
 .active a{
 	color: #A3CFD8;
@@ -122,18 +125,23 @@ nav a {
 	background-color: #97D0A3;
 	padding-left: 250px;
 	padding-right: 250px;
+	height: 725px;
 }
 
 .head {
 	color: #ffffff;
 	text-align: center; 
+	margin: 0;
+	padding-top: 25px;
+}
+
+.head h1 {
+	margin-top: 0;
 }
 
 .head p {
 	font-family: sans-serif;
 }
-
-
 
 #skills ul {
 	text-align: center;
@@ -145,7 +153,7 @@ nav a {
 	 
 }
 
-#kills ul a {
+#skills ul a {
 	color: white;
 }
 
@@ -155,32 +163,120 @@ nav a {
 	margin-right: 30px
 }
 
-.active1 a{
+.active1 li a: active {
 	color: #97D0A3;
-	background-color: black;
+	background-color: #ffffff;
 	border-radius: 5px;
 	padding: 5px;
-	
 }
 
-.thumb {
-	display: block;
-	margin-left: auto;
-	margin-right: 95%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-
+#skills .thumb {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+	float: left;
+	margin-top: 25px;
 
 }
 
-.thumb img{
-	padding-right: 55px;
-	padding-bottom: 55px;
-	width: 225px;
-	height: 200px;
+#skills .thumb img {
+	padding-right: 45px;
+	padding-bottom: 25px;
+	width: 235px;
+	height: 180px;
 	float: left;
 	
 }
+
 button {
+	position: relative;
+	top: 25px;
 	text-align: center;
 	background-color: white;
+	margin:0 auto;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 15px;
+    color: #97D0A3;
+    font-weight: bold;
 }
 
+/*Layered Template*/
+.plan {
+	padding-left: 250px;
+	padding-right: 250px;
+	height: 550px;
+	background-color: #F0F0F0;
+}
+
+.plan .img1 {
+	float: left;
+	width: 285px;
+	height: 255px;
+}
+
+.plan .info {
+	float: right;
+	width: 550px;
+	padding-top: 50px;
+}
+.info button {
+	position: absolute;
+	top: 1700px;
+	right: 685px;
+	color: #F0F0F0;
+	background-color: #9DCFA6;
+}
+
+.plan .img2 {
+	float: right;
+	width: 285px;
+	height: 260px;
+}
+
+.plan .info1 {
+	float: left;
+	width: 550px;
+	padding-top: 50px;
+}
+
+.info1 button {
+	position: absolute;
+	top: 1965px;
+	right: 985px;
+	color: #F0F0F0;
+	background-color: #A3D3D6;
+}
+
+
+.group3 {
+	height: 250px;
+}
+
+/*Team Section*/
+
+.team {
+	background-color: #E1B8C8;
+	padding-left: 250px;
+	padding-right: 250px;
+	height: 550px;
+}
+
+.team .member {
+	float: left;
+	width: 235px;
+	margin-right: 45px;
+	text-align: center;
+}
+ .member .avatar {
+ 	background-color: #EAE7E9;
+ 	padding: 60px 95px 60px 90px;
+}	
+.member .about{
+	position: relative;
+	bottom: 5px;
+	background-color: #ffffff;
+	padding-bottom: 25px;
+	padding-top: 20px;
+}
+.about h2 {
+	margin: 0;
+}
