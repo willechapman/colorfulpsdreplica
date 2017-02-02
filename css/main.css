@@ -6,6 +6,16 @@ body {
 li, a {
 	text-decoration: none;
 }
+
+/*for all paragrphs under each section title*/
+.pgraph {
+	width: 300px;
+	font-size: 13px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 header {
 	background-color: #A3CFD8;
 	padding-left: 250px;
@@ -135,7 +145,7 @@ nav a {
 	padding-top: 25px;
 }
 
-.head h1 {
+.head h2 {
 	margin-top: 0;
 }
 
@@ -150,7 +160,6 @@ nav a {
 	font-weight: bold;
 	font-size: 13px;
 	color: white;
-	 
 }
 
 #skills ul a {
@@ -163,7 +172,7 @@ nav a {
 	margin-right: 30px
 }
 
-.active1 li a: active {
+.active1 li a:active {
 	color: #97D0A3;
 	background-color: #ffffff;
 	border-radius: 5px;
@@ -173,7 +182,6 @@ nav a {
 #skills .thumb {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
 	float: left;
 	margin-top: 25px;
-
 }
 
 #skills .thumb img {
@@ -182,7 +190,6 @@ nav a {
 	width: 235px;
 	height: 180px;
 	float: left;
-	
 }
 
 button {
@@ -199,7 +206,7 @@ button {
     font-weight: bold;
 }
 
-/*Layered Template*/
+/*Service*/
 .plan {
 	padding-left: 250px;
 	padding-right: 250px;
@@ -252,24 +259,25 @@ button {
 }
 
 /*Team Section*/
-
-.team {
+.team{
 	background-color: #E1B8C8;
 	padding-left: 250px;
 	padding-right: 250px;
 	height: 550px;
 }
 
-.team .member {
+.team .member{
 	float: left;
 	width: 235px;
 	margin-right: 45px;
 	text-align: center;
 }
- .member .avatar {
+
+ .member .avatar{
  	background-color: #EAE7E9;
  	padding: 60px 95px 60px 90px;
-}	
+}
+
 .member .about{
 	position: relative;
 	bottom: 5px;
@@ -277,6 +285,137 @@ button {
 	padding-bottom: 25px;
 	padding-top: 20px;
 }
-.about h2 {
+
+.about h3{
 	margin: 0;
+}
+
+/*team section social links*/
+.about a img{
+	width: 30px;
+	height: 30px;
+	display: inline;
+	margin-right: 10px;
+}
+
+/*Recent Post Section*/
+#posts{
+	padding-left: 250px;
+	padding-right: 250px;
+	height: 600px;
+	background-color: #B4D4DF;
+}
+
+#posts .post{
+	float: left;
+	width: 235px;
+	margin-right: 48px;
+	text-align: center;
+}
+
+#posts .post img{
+	position: relative;
+	top: 4px;
+	background-color: #E8E8E8;
+	height: 30px;
+	width: 30px;
+	margin: 0;
+	padding: 50px 102.5px;
+
+}
+
+.post .posti{
+	background-color: #FEFEFE;
+
+}
+
+.posti h3{
+	margin-top: 0;
+	padding-top: 10px;
+}
+
+#posts button{
+	color: #B4D4DF;
+	margin-right: 380px;
+}
+
+/*Contact Section*/
+
+#contact{
+	background-color: #3B3B3B;
+	padding-left: 250px;
+	padding-right: 250px;
+	height: 500px;
+}
+
+.mywidth{
+	width: 325px;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px 5px 10px;
+}
+
+div form{
+	display: block;
+	text-align: center;
+}
+
+form{
+	display: inline-block;
+	text-align: left
+
+}
+
+form input[type=text]{
+	display: block;
+	height: 25px;
+	padding: 5px 10px 5px 10px;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+textarea{
+	height: 75px; 
+	resize: none;
+	margin-bottom: 15px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#contact button{
+	color: #3B3B3B;
+	font-weight: bold;
+	width: 125px;
+	margin-bottom: 35px;
+}
+
+#contact hr{
+	border-color: #000000;
+	margin: 0;
+}
+
+/*footer*/
+
+footer{
+	margin-top: 15px;
+}
+
+footer a img{
+	float: left;
+	padding-right: 5px;
+	width: 30px;
+	height: 30px;
+}
+
+footer h5{
+	margin: 0;
+	margin-top: 5px;
+	float: right;
+}
+
+.copy a{
+	color: #685E44;
+
 }
